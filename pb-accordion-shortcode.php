@@ -13,7 +13,7 @@
 
 if (!function_exists('pb_accordion_shortcode_styles')){
     function pb_accordion_shortcode_styles(){
-        wp_enqueue_style( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'dist/css/main.css' );
+        wp_enqueue_style( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'dist/css/main.min.css' );
         wp_enqueue_style( 'font_awesome', plugin_dir_url( __FILE__ ) . 'src/css/font-awesome.min.css' );
     }
 }
