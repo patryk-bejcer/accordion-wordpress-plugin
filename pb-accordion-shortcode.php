@@ -13,14 +13,14 @@
 
 if (!function_exists('pb_accordion_shortcode_styles')){
     function pb_accordion_shortcode_styles(){
-        wp_enqueue_style( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'assets/css/style.css' );
-        wp_enqueue_style( 'font_awesome', plugin_dir_url( __FILE__ ) . 'assets/css/font-awesome.min.css' );
+        wp_enqueue_style( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'dist/css/main.css' );
+        wp_enqueue_style( 'font_awesome', plugin_dir_url( __FILE__ ) . 'src/css/font-awesome.min.css' );
     }
 }
 
 if (!function_exists('pb_accordion_shortcode_scripts')){
     function pb_accordion_shortcode_scripts(){
-        wp_enqueue_script( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'assets/js/scripts.js' );
+        wp_enqueue_script( 'pb_accordion_shortcode', plugin_dir_url( __FILE__ ) . 'dist/app.js' );
     }
 }
 
